@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Mail, Lock, Gamepad2, ArrowRight } from "lucide-react";
+import { Gamepad2, ArrowRight } from "lucide-react";
 
 const Login: React.FC = () => {
   const navigate = useNavigate();

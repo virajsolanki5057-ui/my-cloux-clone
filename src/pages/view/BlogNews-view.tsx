@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { newsData } from '../BlogNews'; // Adjust path
 
 const BlogNewsView: React.FC = () => {

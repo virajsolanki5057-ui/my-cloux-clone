@@ -96,7 +96,7 @@ const BlogNews: React.FC = () => {
           viewport={{ once: true, margin: "-100px" }}
           className="grid grid-cols-1 md:grid-cols-3 gap-10"
         >
-          {newsData.map((post, index) => (
+          {newsData.map((post) => (
             <motion.div 
               key={post.id} 
               variants={itemVariants} 

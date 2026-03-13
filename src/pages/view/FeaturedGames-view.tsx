@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
-  Gamepad2, Calendar, Settings, Globe, Monitor, Users, Share2, 
-  Facebook, Twitter, Youtube, Twitch, Image as ImageIcon, Video, Check, Menu, X 
+  Gamepad2, Calendar, Settings, Globe, Monitor, Users, 
+  Facebook, Twitter, Youtube,  Image as ImageIcon, Video, Check,  
 } from 'lucide-react';
 
 // Shared Data
