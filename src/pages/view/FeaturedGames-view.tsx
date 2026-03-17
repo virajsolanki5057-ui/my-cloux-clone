@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Gamepad2, Calendar, Settings, Globe, Monitor, Users, 
-  Facebook, Twitter, Youtube, Image as ImageIcon, Video, Check, 
+  Facebook, Twitter, Youtube, Image as Video, Check, 
   Play, Server, HardDrive
 } from 'lucide-react';
 
