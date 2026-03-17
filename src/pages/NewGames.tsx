@@ -27,11 +27,10 @@ const cards = [
 ];
 
 const NewGames: React.FC = () => {
-  // Initialize AOS on component mount
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: true, // Animation happens only once while scrolling down
+      once: true, 
       easing: "ease-out-quart",
     });
   }, []);

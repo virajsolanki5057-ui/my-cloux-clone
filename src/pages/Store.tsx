@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Flame, Star, Users,  Filter, Sparkles, Gamepad2, ArrowUpRight } from 'lucide-react';
+import { Search, Flame, Star, Users, Filter, Sparkles, Gamepad2, ArrowUpRight } from 'lucide-react';
 import GameDetailView from './view/GameDetails';
 
 const ClouxGamingPortal: React.FC = () => {
@@ -57,14 +57,12 @@ const ClouxGamingPortal: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#050505] text-white font-['Outfit'] selection:bg-orange-500/30">
       
-      {/* Background Ambience */}
       <div className="fixed inset-0 z-0 pointer-events-none">
          <div className="absolute top-0 inset-x-0 h-screen bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-orange-500/10 via-[#050505] to-[#050505]" />
          <div className="absolute bottom-0 inset-x-0 h-screen bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-orange-900/10 via-transparent to-transparent" />
          <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 brightness-100 contrast-150 mix-blend-overlay"></div>
       </div>
 
-      {/* Floating Header Navigation (Matches GameDetails layout concept) */}
       <div className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${isScrolled ? 'bg-black/80 backdrop-blur-xl border-b border-white/5 py-4' : 'bg-transparent py-8'}`}>
         <div className="max-w-[1600px] mx-auto px-6 md:px-12 flex justify-between items-center">
           <div className="flex items-center gap-3">
