@@ -11,6 +11,7 @@ import BlogNewsView from './pages/view/BlogNews-view'
 import AboutCloux from './pages/AboutCloux'
 import NewGames from './pages/NewGames'
 import Login from './pages/login' 
+import Store from './pages/Store'
 
 const App = () => {
   const location = useLocation();
@@ -44,6 +45,7 @@ const App = () => {
           <Route path="/blog" element={<BlogNews />} />
           <Route path="/blog/:id" element={<BlogNewsView />} /> 
           <Route path="/about" element={<AboutCloux />} />
+          <Route path="/store" element={<Store />} />
         </Routes>
       </main>
 
