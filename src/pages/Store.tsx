@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Flame, Star, Users, ChevronRight, Filter, Sparkles, Gamepad2, ArrowUpRight } from 'lucide-react';
+import { Search, Flame, Star, Users,  Filter, Sparkles, Gamepad2, ArrowUpRight } from 'lucide-react';
 import GameDetailView from './view/GameDetails';
 
 const ClouxGamingPortal: React.FC = () => {
